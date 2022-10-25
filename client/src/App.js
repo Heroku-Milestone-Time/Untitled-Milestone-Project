@@ -37,7 +37,6 @@ function App() {
               <Route path="/project" element={<Project />} />
               <Route path="/team" element={<Team />} />
               <Route path='/sign-up' element={<SignUp />} />
-              <Route path='/login-user' element={<Login />} />
             </Routes>
           </div>
         </Router>

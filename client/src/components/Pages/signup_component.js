@@ -123,7 +123,7 @@ export default function SignUp() {
       </div>
 
       <p>
-        Already registered? <a href='/login-user'><b>Click here to sign in!</b></a>
+        Already registered? <a href='/account'><b>Click here to sign in!</b></a>
       </p>
     </form>
     </div>
