@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
 import restrooms from '../data/restrooms.geojson'
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+mapboxgl.accessToken = 'pk.eyJ1IjoiYW5nZWxndWV2YXJhOTQiLCJhIjoiY2wyZ3p0YzV1MDM5cjNjbWptbmVtcTlwYiJ9.MeyQxi0C68TmhE0Hgc4t6g';
 
 const data = restrooms
 
