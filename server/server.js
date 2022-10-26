@@ -3,6 +3,7 @@ const express = require('express')
 const cors = require('cors');
 const axios = require('axios');
 const path = require('path')
+const PORT = process.env.PORT
 const app = express();
 const mongoose = require('mongoose')
 app.use(cors())
@@ -77,6 +78,6 @@ app.get('/message', (req, res) => {
 //         res.send({ status: 'error' });
 //     }
 // });
-app.listen(4000, () => {
-    console.log(`Server listening on 4000`)
+app.listen(PORT, () => {
+    console.log(`Server listening on ${PORT}`)
 })
