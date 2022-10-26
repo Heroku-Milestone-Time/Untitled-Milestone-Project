@@ -7,7 +7,7 @@ import Project from './components/Pages/Project';
 import Team from './components/Pages/Team';
 import SignUp from './components/Pages/signup_component';
 import Login from './components/Pages/login_registration';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import {useEffect, useState} from 'react';
 import CurrentUserProvider from './context/CurrentUser.js'
 // import 'bootstrap/dist/css/bootstrap.min.css';
