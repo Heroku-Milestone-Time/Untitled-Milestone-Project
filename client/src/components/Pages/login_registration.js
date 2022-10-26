@@ -33,6 +33,10 @@ export default function Login() {
     navigate(path);
   }
 
+  async function newRoute() {
+    navigate('/sign-up');
+  }
+
   return (
     <div class="signin">
     <form onSubmit={handleSubmit}>
@@ -67,7 +71,7 @@ export default function Login() {
       </div>
       <br/>
       <p>
-      Not yet registered? <a href='/sign-up'><b>Click here to Sign up!</b></a>
+      Not yet registered? <span onClick={newRoute}><b>Click here to sign up!</b></span>
       </p>
     </form>
     </div>

@@ -28,6 +28,10 @@ export default function SignUp() {
     navigate(path);
   }
 
+  async function newRoute() {
+    navigate('/account');
+  }
+
   // handleClose()}
 
   // let handleSubmit = async (e) => {
@@ -123,7 +127,7 @@ export default function SignUp() {
       </div>
 
       <p>
-        Already registered? <a href='/account'><b>Click here to sign in!</b></a>
+        Already registered? <span onClick={newRoute}><b>Click here to sign in!</b></span>
       </p>
     </form>
     </div>
