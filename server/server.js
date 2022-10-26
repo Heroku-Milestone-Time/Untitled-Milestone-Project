@@ -78,6 +78,6 @@ app.get('/message', (req, res) => {
 //         res.send({ status: 'error' });
 //     }
 // });
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 4000, () => {
     console.log(`Server listening on ${PORT}`)
 })
