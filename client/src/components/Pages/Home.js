@@ -5,8 +5,6 @@ import restrooms from '../data/restrooms.geojson'
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5nZWxndWV2YXJhOTQiLCJhIjoiY2wyZ3p0YzV1MDM5cjNjbWptbmVtcTlwYiJ9.MeyQxi0C68TmhE0Hgc4t6g';
 
-mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
-
 const data = restrooms
 
 class Home extends React.Component {
