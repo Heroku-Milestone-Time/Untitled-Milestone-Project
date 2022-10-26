@@ -11,7 +11,7 @@ export default function Login() {
   async function handleSubmit(e) {
     e.preventDefault();
     
-    const response = await fetch(`http://localhost:4000/authentication/login-user`, {
+    const response = await fetch(`/authentication/login-user`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

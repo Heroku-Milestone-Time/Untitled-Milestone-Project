@@ -13,7 +13,7 @@ export default function SignUp() {
   async function handleSubmit(e) {
     e.preventDefault()
     
-    const response = await fetch(`http://localhost:4000/users/sign-up`, {
+    const response = await fetch(`/users/sign-up`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
